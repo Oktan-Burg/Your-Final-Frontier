@@ -1,0 +1,25 @@
+:root {
+  background-color: #161616;
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  outline: none;
+
+}
+h1, h2, h3, p, a {
+  /* Text linear style */
+background-image: linear-gradient(to right, #ff0040, #cc0096, #8300b3);
+background-image: -webkit-linear-gradient(to right, #ff0040, #cc0096, #8300b3);
+background-image: -moz-linear-gradient(to right, #ff0040, #cc0096, #8300b3);
+background-image: -ms-linear-gradient(to right, #ff0040, #cc0096, #8300b3);
+-webkit-background-clip: text; /* for Safari */
+-moz-background-clip: text; /* for Firefox */
+-ms-background-clip: text; /* for IE */
+background-clip: text; /* standard syntax */
+-webkit-text-fill-color: transparent; /* for Safari */
+-moz-text-fill-color: transparent; /* for Firefox */
+-ms-text-fill-color: transparent; /* for IE */
+color: #fff; /* fallback color */
+}

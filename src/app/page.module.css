@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+
+/* Styles for the #mainPage element */
+#mainPage {
+  font-family: 'Bebas Neue', cursive;
+  /* Text linear style */
+background-image: linear-gradient(to right, #ff0040, #cc0096, #8300b3);
+background-image: -webkit-linear-gradient(to right, #ff0040, #cc0096, #8300b3);
+background-image: -moz-linear-gradient(to right, #ff0040, #cc0096, #8300b3);
+background-image: -ms-linear-gradient(to right, #ff0040, #cc0096, #8300b3);
+-webkit-background-clip: text; /* for Safari */
+-moz-background-clip: text; /* for Firefox */
+-ms-background-clip: text; /* for IE */
+background-clip: text; /* standard syntax */
+-webkit-text-fill-color: transparent; /* for Safari */
+-moz-text-fill-color: transparent; /* for Firefox */
+-ms-text-fill-color: transparent; /* for IE */
+color: #fff; /* fallback color */
+}
+
+/* Styles for links inside #mainPage */
+#mainPage a { 
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Styles for the header container */
+.headerContainer {
+  display: flex;
+  box-shadow: 0 0 16px black;
+  border-bottom: 2px solid black;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #1f1f1f;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+#navigator {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 16px 16px 16px;
+  border:2px solid black;
+  box-sizing: border-box;
+  box-shadow: 0 0 16px black;
+  margin-right: 20px;
+  font-size: 1.25em;
+}
+#userHeader {
+  opacity: 0;
+}
+#userHeader:hover {
+  opacity: 1;
+  transition: 1s opacity;
+}
+#userHeader:not(:hover) {
+  opacity: 0;
+  transition: 1s opacity;
+}
+#toolNavigator {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.25em !important;
+  box-shadow: 0 0 16px black;
+  border: 2px solid black;
+  border-radius: 16px 16px 16px;
+}
+.containerSimple {
+  display: flex;
+  box-shadow: 0 0 16px black;
+  align-items: center;
+  padding: 5px;
+  border-radius: 16px 16px 16px;
+  border: 2px solid black;
+}
+.headerContainer h1 {
+  margin-left: 20px
+}
+/* Styles for button links */
+.buttonLink {
+  display: inline-flex;
+  padding: 10px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  background-color: rgb(0, 140, 255);
+  border-radius: 16px 16px 16px 16px;
+  box-shadow: 0 0 16px black;
+  color: black;
+}
